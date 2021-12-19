@@ -1,0 +1,13 @@
+//pseudocode for star pattern
+
+line = 1;
+while(line<=5){
+    count = 1;
+    while(count<=line){
+        print(*);
+        count = count+1;
+
+    }
+    print(\n);
+    line=line+1;
+}
